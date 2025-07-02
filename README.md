@@ -2,14 +2,15 @@
 
 A fully functional and modern **Library Management System** built with **React.js**, designed to streamline the operations of a library. This application supports book management, borrowing, returning, and logging all activities to ensure a seamless user and administrator experience.
 
+> **Note:** As this is an organizational project, I couldn't upload the exact version due to ethical concerns. This repository contains a sample version and not the original implementation. The live website deployed on Vercel does not include the dashboard functionality because it requires data fetched from the backend, which hasn't been deployed. However, the complete source code for both frontend and backend is available in this repository. All gallery images, logos, and visuals used in this repository are randomly sourced and not from the original project due to ethical constraints. Please clone and run locally to access all features.
+
 ---
 
 ## 🌐 Live Demo
 
 🟢 Deployed on **Vercel**:
-[https://library-management.vercel.app](https://library-management.vercel.app)
+[library-management-git-main-r-santhoshkumars-projects.vercel.app](library-management-git-main-r-santhoshkumars-projects.vercel.app)
 
-> *(Update the link to your actual Vercel deployment)*
 
 ---
 
@@ -17,6 +18,7 @@ A fully functional and modern **Library Management System** built with **React.j
 
 ```
 Library-Management/
+├── screenshots/            # UI Screenshots for README
 ├── backend/                # Node.js backend
 │   ├── controller/         # Route controllers
 │   ├── handlebars/         # Handlebars email templates
@@ -79,7 +81,7 @@ Library-Management/
 
 ## 🚀 Deployment
 
-This app is deployed using [**Vercel**](https://vercel.com/), directly linked with GitHub for automatic CI/CD.
+This app is deployed using **[Vercel](https://vercel.com/)**, directly linked with GitHub for automatic CI/CD.
 
 > **Auto-Deploy**: Every push to `main` branch redeploys your site!
 
@@ -108,32 +110,10 @@ npm start
 ```bash
 cd ../backend
 npm install
-node server.js
+npm start
 ```
 
 > Runs backend server (check port in `server.js`)
-
----
-
-## 🔗 Environment Variables
-
-Frontend `.env`:
-
-```env
-REACT_APP_API_URL=http://localhost:5000/api
-```
-
-Backend `.env`:
-
-```env
-DB_HOST=localhost
-DB_USER=root
-DB_PASS=yourpassword
-EMAIL_HOST=smtp.yourmail.com
-EMAIL_USER=your-email@example.com
-EMAIL_PASS=yourpassword
-JWT_SECRET=your_jwt_secret
-```
 
 ---
 
@@ -142,7 +122,7 @@ JWT_SECRET=your_jwt_secret
 | Frontend      | Deployment         | Backend          |
 | ------------- | ------------------ | ---------------- |
 | React.js      | Vercel (Free Tier) | Node.js, Express |
-| Tailwind CSS  | GitHub CI/CD       | MySQL/MongoDB    |
+| Tailwind CSS  | GitHub CI/CD       | MySQL            |
 | Framer Motion |                    | JWT / Nodemailer |
 | Chart.js      |                    | Handlebars Email |
 
@@ -150,23 +130,25 @@ JWT_SECRET=your_jwt_secret
 
 ## 📸 Screenshots
 
-> *(Add your screenshots below this section, or embed images like this:)*
+> Screenshots are located outside the project directory in the repository root for clarity and access.
 
-```
-![Dashboard](./src/assets/screenshots/dashboard.png)
-![Admin Panel](./src/assets/screenshots/admin_panel.png)
-![Borrow Request Page](./src/assets/screenshots/borrow_request.png)
-```
+### 🏠 Home Page
+
+### 🧾 About Us Page
+
+### 🖼️ About Us Gallery Section
+
+### 🔐 Admin Login
+
+### 📊 Dashboard View
+
+### 🛠️ Services Option
+
+### 📬 Book Request Service
+
+### 📚 E-Library
 
 ---
-
-## 👥 Contribution
-
-Feel free to fork the repository and open a pull request with improvements or fixes!
-
-```bash
-git checkout -b feature/your-feature-name
-```
 
 ---
 
@@ -179,7 +161,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## 👨‍💻 Maintainer
 
 * 👤 **R. Santhosh Kumar**
-  📧 [Email Me](mailto:your-email@example.com)
+  📧 [Email Me](mailto:dr.r.santhoshkumar@gmail.com)
   🌐 [GitHub Profile](https://github.com/R-Santhoshkumar)
 
 ---
