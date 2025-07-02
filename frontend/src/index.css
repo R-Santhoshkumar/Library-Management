@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.relative .absolute {
+  position: absolute;
+  z-index: 9999; /* High z-index to ensure it's above other elements */
+}

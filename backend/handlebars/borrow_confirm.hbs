@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: "Roboto", sans-serif;
+            background-color: #f4f4f4;
+            color: #333333;
+        }
+        .container {
+            width: 100%;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+            max-width: 600px;
+            margin: 40px auto;
+            border: 2px solid #007bff;
+        }
+        .header {
+            background-color: #007bff;
+            padding: 20px;
+            text-align: center;
+            color: #ffffff;
+            border-radius: 8px 8px 0 0;
+        }
+        .header h1 {
+            margin: 0;
+            font-size: 24px;
+            font-weight: 500;
+        }
+        .content {
+            padding: 20px;
+            line-height: 1.6;
+        }
+        .content h2 {
+            margin-top: 0;
+            color: #007bff;
+            font-weight: 500;
+        }
+        .content p {
+            margin: 0 0 20px;
+            font-weight: 400;
+        }
+        .footer {
+            text-align: center;
+            padding: 20px;
+            font-size: 14px;
+            color: #777777;
+            border-top: 1px solid #dddddd;
+            font-weight: 400;
+        }
+        p{
+            font-size: 16px;
+            color: #2c2c2c
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <img src=" " alt=" Logo" height="60px">
+            <h1>ABC Company</h1>
+            <h1>Borrow Confirmation</h1>
+        </div>
+        <div class="content">
+            <p>Dear {{borrower_name}},</p>
+            <p>You have successfully collected the book titled <strong>{{title}}</strong> from the library.</p>
+            <p>Your borrow has been confirmed. Please ensure the book is returned by the return date provided below and the book should be returned in proper condition. Any damage to the book from your side will result in penalty as buying new book or handovering the price of the book.</p>
+            <p>If you have any questions or need further assistance, feel free to contact the librarian.</p>
+            <p><strong>Borrow Details:</strong></p>
+            <ul>
+                <li><strong>Borrower Name:</strong> {{borrower_name}}</li>
+                <li><strong>Register ID:</strong> {{register_id}}</li>
+                <li><strong>Borrower Email:</strong> {{borrower_email}}</li>
+                <li><strong>Borrow Date:</strong> {{borrow_date}}</li>
+                <li><strong>Return Date:</strong> {{return_date}}</li>
+            </ul>
+            <p>Thank you for using our library services!</p>
+            <p>Best regards,<br>Library</p>
+        </div>
+        <div class="footer">
+             2024 Library. All rights reserved.
+        </div>
+    </div>
+</body>
+</html>
