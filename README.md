@@ -2,7 +2,7 @@
 
 A fully functional and modern **Library Management System** built with **React.js**, designed to streamline the operations of a library. This application supports book management, borrowing, returning, and logging all activities to ensure a seamless user and administrator experience.
 
-> **Note:** As this is an organizational project, I couldn't upload the exact version due to ethical concerns. This repository contains a sample version and not the original implementation. The live website deployed on Vercel does not include the dashboard functionality because it requires data fetched from the backend, which hasn't been deployed. However, the complete source code for both frontend and backend is available in this repository. All gallery images, logos, and visuals used in this repository are randomly sourced and not from the original project due to ethical constraints. Please clone and run locally to access all features.
+> **Note:** As this is an organizational project, I couldn't upload the exact version due to ethical concerns. This repository contains a sample version and not the original implementation. The live website deployed on Vercel does not include the dashboard functionality because it requires data fetched from the backend, which hasn't been deployed. However, the complete source code for both frontend and backend is available in this repository. All gallery images, logos, and visuals used in this repository are randomly sourced and not from the original project due to ethical constraints. Please clone and run locally to access all features. his is a solo contribution project. The commits made under the SandyKaliMail GitHub profile are from my alternate account.
 
 ---
 
@@ -167,7 +167,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ## 👨‍💻 Maintainer
 
-* 👤 **R. Santhosh Kumar**
+* 👤 **R. Santhoshkumar**
   📧 [Email Me](mailto:dr.r.santhoshkumar@gmail.com)
   🌐 [GitHub Profile](https://github.com/R-Santhoshkumar)
 
