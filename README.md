@@ -9,7 +9,7 @@ A fully functional and modern **Library Management System** built with **React.j
 ## 🌐 Live Demo
 
 🟢 Deployed on **Vercel**:
-[library-management-git-main-r-santhoshkumars-projects.vercel.app](library-management-git-main-r-santhoshkumars-projects.vercel.app)
+[library-management-git-main-r-santhoshkumars-projects.vercel.app](https://library-management-git-main-r-santhoshkumars-projects.vercel.app/)
 
 
 ---
