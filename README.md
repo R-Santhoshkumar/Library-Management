@@ -17,17 +17,28 @@ A fully functional and modern **Library Management System** built with **React.j
 
 ```
 Library-Management/
-├── frontend/               # React frontend
-│   ├── public/
+├── backend/                # Node.js backend
+│   ├── controller/         # Route controllers
+│   ├── handlebars/         # Handlebars email templates
+│   ├── mailer/             # Nodemailer configuration
+│   ├── middleware/         # Auth & middleware logic
+│   ├── models/             # Database models
+│   ├── route/              # Express route handlers
+│   └── server.js           # Backend entry point
+├── frontend/              # React frontend
+│   ├── public/             # index.html, manifest, images
 │   ├── src/
-│   │   ├── assets/         # Images like logos
-│   │   ├── components/     # Reusable UI components
-│   │   ├── pages/          # All main pages (Admin, User, Login, etc.)
-│   │   ├── utils/          # Utility functions (e.g., API handling)
-│   │   └── App.js
+│   │   ├── assets/     # Static assets like logos
+│   │   ├── components/ # Reusable UI components
+│   │   ├── pages/      # All main page views
+│   │   ├── App.js     # Root React component
+│   │   └── index.js   # Entry point for React
+│   ├── tailwind.config.js  # Tailwind CSS config
 │   ├── package.json
+│   ├── package-lock.json
 │   └── README.md
-└── backend/ (optional)     # Your backend if used
+├── LICENSE
+└── README.md
 ```
 
 ---
@@ -83,32 +94,36 @@ git clone https://github.com/R-Santhoshkumar/Library-Management.git
 cd Library-Management/frontend
 ```
 
-### 2. Install Dependencies
+### 2. Install Frontend Dependencies
 
 ```bash
 npm install
-```
-
-### 3. Start Development Server
-
-```bash
 npm start
 ```
 
 > Runs on `http://localhost:3000`
 
+### 3. Install Backend Dependencies
+
+```bash
+cd ../backend
+npm install
+node server.js
+```
+
+> Runs backend server (check port in `server.js`)
+
 ---
 
 ## 🔗 Environment Variables
 
-> If you're connecting to a backend, add a `.env` file in the frontend root:
+Frontend `.env`:
 
 ```env
-REACT_APP_API_URL=https://your-backend-api.com/api
-REACT_APP_TOKEN_SECRET=yourJWTsecret
+REACT_APP_API_URL=http://localhost:5000/api
 ```
 
-For backend (if present), typical `.env` values might include:
+Backend `.env`:
 
 ```env
 DB_HOST=localhost
@@ -117,13 +132,14 @@ DB_PASS=yourpassword
 EMAIL_HOST=smtp.yourmail.com
 EMAIL_USER=your-email@example.com
 EMAIL_PASS=yourpassword
+JWT_SECRET=your_jwt_secret
 ```
 
 ---
 
 ## 💻 Technologies Used
 
-| Frontend      | Deployment         | Optional Backend |
+| Frontend      | Deployment         | Backend          |
 | ------------- | ------------------ | ---------------- |
 | React.js      | Vercel (Free Tier) | Node.js, Express |
 | Tailwind CSS  | GitHub CI/CD       | MySQL/MongoDB    |
