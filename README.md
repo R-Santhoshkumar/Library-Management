@@ -132,22 +132,29 @@ npm start
 
 > Screenshots are located outside the project directory in the repository root for clarity and access.
 
-### 🏠 Home Page
+### 🏠 Home Page  
+![Home Page](screenshots/home_page_screenshot.png)
 
-### 🧾 About Us Page
+### 🧾 About Us Page  
+![About Us](screenshots/Aboutus_screenshot.png)
 
-### 🖼️ About Us Gallery Section
+### 🖼️ About Us Gallery Section  
+![Gallery](screenshots/aboutus_gallery_screenshot.png)
 
-### 🔐 Admin Login
+### 🔐 Admin Login  
+![Admin Login](screenshots/Admin_login_screenshot.png)
 
-### 📊 Dashboard View
+### 📊 Dashboard View  
+![Dashboard](screenshots/Dashboard_screenshot.png)
 
-### 🛠️ Services Option
+### 🛠️ Services Option  
+![Services](screenshots/services_option_screenshot.png)
 
-### 📬 Book Request Service
+### 📬 Book Request Service  
+![Request Service](screenshots/book_request_service_screenshot.png)
 
-### 📚 E-Library
-
+### 📚 E-Library  
+![E-Library](screenshots/Elibrary_screenshot.png)
 ---
 
 ---
