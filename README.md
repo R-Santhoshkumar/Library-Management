@@ -176,7 +176,7 @@ This project is open-source and available under the [MIT License](LICENSE).
 
 ---
 
-## 🧕‍♂️ Maintainer
+## 👨‍💻 Maintainer
 
 * 👤 **R. Santhosh Kumar**
   📧 [Email Me](mailto:your-email@example.com)
