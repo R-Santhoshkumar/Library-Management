@@ -81,7 +81,7 @@ Library-Management/
 
 ## 🚀 Deployment
 
-This app is deployed using **[Vercel](https://vercel.com/)**, directly linked with GitHub for automatic CI/CD.
+This app is deployed using [**Vercel**](https://vercel.com/), directly linked with GitHub for automatic CI/CD.
 
 > **Auto-Deploy**: Every push to `main` branch redeploys your site!
 
